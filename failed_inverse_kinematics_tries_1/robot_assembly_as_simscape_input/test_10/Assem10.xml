@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="11/15/18||12:39:41" using="Simscape Multibody Link Version 5.2" from="SolidWorks 26.0.1"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Assem10" uid="Assem10" version="119">
+<AssemblyFile name="Assem10.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="second wrist-1" uid="second wrist-1" entityUid="second wrist*:*Default">
+<Transform>
+<Rotation>-1.2246467991473532e-16 0 -1 -1 0 1.2246467991473532e-16 0 1 0</Rotation>
+<Translation>-0.10196927064331557 0.021366902343400475 0.10060719066419652</Translation>
+</Transform>
+</Instance>
+<Instance name="base second wrist-1" uid="base second wrist-1" grounded="true" entityUid="base second wrist*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.064469270643315577 0.043866902343400474 0.07310719066419652</Translation>
+</Transform>
+</Instance>
+<Instance name="second wrist-2" uid="second wrist-2" entityUid="second wrist*:*Default">
+<Transform>
+<Rotation>0 0 -1 -1 0 0 0 1 0</Rotation>
+<Translation>-0.026969270643315571 0.021366902343400475 0.10060719066419652</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>second wrist-2</Uid>
+</InstancePath>
+<Position>0 -0.024999999999999994 0.0024999999999999988</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base second wrist-1</Uid>
+</InstancePath>
+<Position>0 0 0.0025000000000000022</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>second wrist-1</Uid>
+</InstancePath>
+<Position>0 -0.024999999999999994 0.0025000000000000022</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base second wrist-1</Uid>
+</InstancePath>
+<Position>0 0 0.0025000000000000022</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>second wrist-2</Uid>
+</InstancePath>
+<Position>0 0 -0.0024999999999999988</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base second wrist-1</Uid>
+</InstancePath>
+<Position>0.040000000000000001 0 0.0025000000000000022</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>second wrist-1</Uid>
+</InstancePath>
+<Position>0 0 0.0025000000000000022</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base second wrist-1</Uid>
+</InstancePath>
+<Position>-0.039999999999999994 0 0.0025000000000000022</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>second wrist-1</Uid>
+</InstancePath>
+<Position>0.029999999999999999 0 0.0025000000000000022</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base second wrist-1</Uid>
+</InstancePath>
+<Position>0 -0.052499999999999998 0.0025000000000000022</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>second wrist-2</Uid>
+</InstancePath>
+<Position>0.029999999999999999 0 0.0024999999999999988</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base second wrist-1</Uid>
+</InstancePath>
+<Position>0 -0.052499999999999998 0.0025000000000000022</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="base second wrist" uid="base second wrist*:*Default" version="185">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="base second wrist.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.095027935151675527</Mass>
+<CenterOfMass>0 0.0013932246967225668 0</CenterOfMass>
+<Inertia>9.0834478687713984e-05 5.8487755190968433e-05 0.00014892628414888377 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="base second wrist_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="second wrist" uid="second wrist*:*Default" version="188">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="second wrist.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.021273871141885357</Mass>
+<CenterOfMass>0 0.012245641958481731 0</CenterOfMass>
+<Inertia>1.0109094529885927e-05 5.9726245513454988e-06 1.5993077951473575e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="second wrist_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

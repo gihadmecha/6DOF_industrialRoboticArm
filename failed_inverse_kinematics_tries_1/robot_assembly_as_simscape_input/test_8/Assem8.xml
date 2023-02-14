@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="11/15/18||12:23:11" using="Simscape Multibody Link Version 5.2" from="SolidWorks 26.0.1"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Assem8" uid="Assem8" version="113">
+<AssemblyFile name="Assem8.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="base firest wrist-1" uid="base firest wrist-1" grounded="true" entityUid="base firest wrist*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.022142110979956414 0.049649121832732172 0.075941964239185478</Translation>
+</Transform>
+</Instance>
+<Instance name="wright link wrist-1" uid="wright link wrist-1" entityUid="wright link wrist*:*Default">
+<Transform>
+<Rotation>0 0 -1 -1 0 0 0 1 0</Rotation>
+<Translation>-0.021357889020043586 0.049649121832732172 0.12344196423918548</Translation>
+</Transform>
+</Instance>
+<Instance name="wright link wrist-2" uid="wright link wrist-2" entityUid="wright link wrist*:*Default">
+<Transform>
+<Rotation>0 0 -1 -1 -1.6653345369377353e-16 0 0 1 0</Rotation>
+<Translation>0.065642110979956425 0.049649121832732186 0.12344196423918548</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base firest wrist-1</Uid>
+</InstancePath>
+<Position>0 0 0.0025000000000000022</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wright link wrist-2</Uid>
+</InstancePath>
+<Position>0 -0.044999999999999998 0.0025000000000000022</Position>
+<Axis>-1.6653345369377353e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base firest wrist-1</Uid>
+</InstancePath>
+<Position>0 0 0.0025000000000000022</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wright link wrist-1</Uid>
+</InstancePath>
+<Position>0 -0.044999999999999998 0.0024999999999999988</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base firest wrist-1</Uid>
+</InstancePath>
+<Position>-0.045999999999999999 0 0.0025000000000000022</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wright link wrist-1</Uid>
+</InstancePath>
+<Position>0 0 0.0024999999999999988</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base firest wrist-1</Uid>
+</InstancePath>
+<Position>0.045999999999999999 0 0.0025000000000000022</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wright link wrist-2</Uid>
+</InstancePath>
+<Position>0 0 -0.0025000000000000022</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base firest wrist-1</Uid>
+</InstancePath>
+<Position>0 0.040000000000000001 0.0025000000000000022</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wright link wrist-1</Uid>
+</InstancePath>
+<Position>-0.040000000000000001 0 0.0024999999999999988</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base firest wrist-1</Uid>
+</InstancePath>
+<Position>0 0.040000000000000001 0.0025000000000000022</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wright link wrist-2</Uid>
+</InstancePath>
+<Position>-0.040000000000000001 0 0.0025000000000000022</Position>
+<Axis>-1 -1.6653345369377353e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="base firest wrist" uid="base firest wrist*:*Default" version="213">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="base firest wrist.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.03533623904876023</Mass>
+<CenterOfMass>0 9.5640800630399976e-06 0</CenterOfMass>
+<Inertia>1.8918608991023141e-05 2.5261441085843595e-05 4.4032815747496897e-05 0 0 2.4630086404145327e-08</Inertia>
+</MassProperties>
+<GeometryFile name="base firest wrist_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="wright link wrist" uid="wright link wrist*:*Default" version="159">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="wright link wrist.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.11939847818519979</Mass>
+<CenterOfMass>0 0.016204037365187291 0</CenterOfMass>
+<Inertia>0.00015540468453068961 6.4289059719083852e-05 0.00021919625059066848 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="wright link wrist_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

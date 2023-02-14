@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="11/15/18||11:19:17" using="Simscape Multibody Link Version 5.2" from="SolidWorks 26.0.1"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Assem1" uid="Assem1" version="220">
+<AssemblyFile name="Assem1.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Base_side-2" uid="Base_side-2" entityUid="Base_side*:*Default">
+<Transform>
+<Rotation>0 -1 1.6653345369377348e-16 2.6662693855566206e-16 -3.3306690738754696e-16 -1 1 0 2.6662693855566201e-16</Rotation>
+<Translation>-0.0081195397726632063 0.14875187942320403 0.15732997357915568</Translation>
+</Transform>
+</Instance>
+<Instance name="Base_side-1" uid="Base_side-1" entityUid="Base_side*:*Default">
+<Transform>
+<Rotation>2.526413809257436e-16 -1 3.3306690738754676e-16 0 -3.3306690738754676e-16 -1 1 2.5264138092574365e-16 0</Rotation>
+<Translation>0.23688046022733678 0.14875187942320406 0.1573299735791556</Translation>
+</Transform>
+</Instance>
+<Instance name="Copy of Copy of Copy of ground1-1" uid="Copy of Copy of Copy of ground1-1" grounded="true" entityUid="Copy of Copy of Copy of ground1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.11188046022733679 0.24875187942320415 0.27232997357915562</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_side-2</Uid>
+</InstancePath>
+<Position>0 0.005000000000000001 0</Position>
+<Axis>0 1 1.6653345369377348e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Copy of Copy of Copy of ground1-1</Uid>
+</InstancePath>
+<Position>-0.125 0.010000000000000009 0.090000000000000024</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_side-2</Uid>
+</InstancePath>
+<Position>0.20499999999999999 0.0049999999999999992 0</Position>
+<Axis>1 0 -2.7755575615628918e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Copy of Copy of Copy of ground1-1</Uid>
+</InstancePath>
+<Position>0.12499999999999999 0.010000000000000009 0.089999999999999969</Position>
+<Axis>1.1102230246251565e-16 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_side-2</Uid>
+</InstancePath>
+<Position>0 0.0049999999999999836 -0.10000000000000001</Position>
+<Axis>-1.9141776286640624e-16 -1.6653345369377348e-16 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Copy of Copy of Copy of ground1-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_side-1</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 -0.099999999999999978</Position>
+<Axis>-1.9141776286640634e-16 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Copy of Copy of Copy of ground1-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_side-1</Uid>
+</InstancePath>
+<Position>0.20499999999999996 0.0050000000000000044 0</Position>
+<Axis>1 0 -2.7755575615628914e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Copy of Copy of Copy of ground1-1</Uid>
+</InstancePath>
+<Position>0.12499999999999999 0.010000000000000009 0.089999999999999969</Position>
+<Axis>1.1102230246251565e-16 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_side-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Copy of Copy of Copy of ground1-1</Uid>
+</InstancePath>
+<Position>0.12499999999999999 0.010000000000000009 0.089999999999999969</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Base_side" uid="Base_side*:*Default" version="365">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base_side.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.25013988746265697</Mass>
+<CenterOfMass>0.10884712750622774 0.0025000000000000005 -0.04687164489655507</CenterOfMass>
+<Inertia>0.00019101024615636483 0.0010041377488229513 0.00081416975219768077 0 6.153756886260305e-05 0</Inertia>
+</MassProperties>
+<GeometryFile name="Base_side_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Copy of Copy of Copy of ground1" uid="Copy of Copy of Copy of ground1*:*Default" version="407">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Copy of Copy of Copy of ground1.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.1501700250020108</Mass>
+<CenterOfMass>0 0.0050452215442026811 -0.00012047979425628881</CenterOfMass>
+<Inertia>0.0032591502908964095 0.0094719055770161962 0.0062319547573449693 -6.2664510369122569e-09 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Copy of Copy of Copy of ground1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
